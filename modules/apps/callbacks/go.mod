@@ -1,8 +1,6 @@
 module github.com/cosmos/ibc-go/modules/apps/callbacks
 
-go 1.21
-
-toolchain go1.21.0
+go 1.21.0
 
 replace github.com/cosmos/ibc-go/v8 => ../../../
 
@@ -28,7 +26,7 @@ require (
 	github.com/cosmos/gogoproto v1.4.12
 	github.com/cosmos/ibc-go/modules/capability v1.0.0
 	github.com/cosmos/ibc-go/v8 v8.0.0
-	github.com/spf13/cast v1.6.0
+	github.com/spf13/cast v1.10.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.18.2
 	github.com/stretchr/testify v1.9.0
